@@ -1,0 +1,45 @@
+@media (min-width: 1000px) {
+    .container {
+        width: auto;
+        padding: 0;
+    }
+
+    .card {
+        width: 925px;
+        margin: 8rem 0 7rem;
+        background-image: url(../images/bg-pattern-desktop.svg);
+        background-size: 104%;
+        background-position: left -35.5rem top -18.5rem;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 3.16rem 5.75rem 5.1875rem 0;
+
+        &__img {
+
+            &__mobile {
+                display: none;
+            }
+
+            &__desktop {
+                display: block;
+                height: 22.6875rem;
+                width: 50%;
+                margin: 1.34rem 2.75rem 0 0;
+                background-image: url(../images/illustration-woman-online-desktop.svg);
+                background-repeat: no-repeat;
+                background-position: left -5.25rem center;
+
+                &__box {
+                    margin-left: -5.75rem;
+                    margin-top: 8.5rem;
+                }
+            }
+        }
+        &__main {
+            width: 50%;
+            padding-left: 3.5rem;
+        }
+    }
+
+}

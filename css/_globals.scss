@@ -1,0 +1,38 @@
+$DividerColor: hsl(240, 5%, 91%);
+
+$GradientViolet: hsl(273, 75%, 66%);
+$GradientBlue: hsl(240, 73%, 65%); 
+
+$DarkText: hsl(237, 12%, 33%);
+$LightText: hsl(240, 6%, 50%);
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient($GradientViolet, $GradientBlue);
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 375px;
+}
+
+
+// Attribution
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-bottom: .5rem;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
